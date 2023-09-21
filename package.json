@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tailwind-dev":"npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
