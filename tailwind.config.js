@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily: {
         'sen': ['Sen', 'sans-serif'],
+      },
+      colors: {
+        'page_cream' : '#FFFCF4',
+        'secondery': '#FFB900'
       }
     },
   },
